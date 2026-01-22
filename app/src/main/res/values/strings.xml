@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Universe Proxy</string>
+    
+    <!-- Tabs -->
+    <string name="tab_http">HTTP</string>
+    <string name="tab_https">HTTPS</string>
+    <string name="tab_socks4">SOCKS4</string>
+    <string name="tab_socks5">SOCKS5</string>
+    
+    <!-- Filters -->
+    <string name="filter_country">Country</string>
+    <string name="filter_anonymity">Anonymity</string>
+    <string name="filter_all_countries">All Countries</string>
+    <string name="filter_select_countries">Select Countries</string>
+    <string name="filter_countries_selected">%d countries selected</string>
+    <string name="filter_search_country">Search country...</string>
+    
+    <!-- Anonymity levels -->
+    <string name="anonymity_elite">Elite</string>
+    <string name="anonymity_anonymous">Anonymous</string>
+    <string name="anonymity_transparent">Transparent</string>
+    
+    <!-- Actions -->
+    <string name="action_get_proxies">Get Proxies</string>
+    <string name="action_validate_selected">Validate Selected</string>
+    <string name="action_validate_all">Validate All</string>
+    <string name="action_export_selected">Export Selected</string>
+    <string name="action_export_all">Export All</string>
+    <string name="action_copy_selected">Copy Selected</string>
+    <string name="action_share">Share</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_deselect_all">Deselect All</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    
+    <!-- Status messages -->
+    <string name="status_loading">Obtaining proxies...</string>
+    <string name="status_validating">Validating proxies...</string>
+    <string name="status_exporting">Exporting proxies...</string>
+    <string name="status_no_proxies">No proxies found. Try different filters.</string>
+    <string name="status_select_proxies">Select proxies to perform actions</string>
+    
+    <!-- Results -->
+    <string name="proxies_count">%d proxies</string>
+    <string name="proxies_selected">%d selected of %d total</string>
+    <string name="proxy_working">Working</string>
+    <string name="proxy_not_working">Not working</string>
+    <string name="proxy_not_verified">Not verified</string>
+    <string name="proxy_speed">%d ms</string>
+    
+    <!-- Export -->
+    <string name="export_title">Export Proxies</string>
+    <string name="export_success">%d proxies exported to %s</string>
+    <string name="export_error">Error exporting proxies</string>
+    <string name="copy_success">%d proxies copied to clipboard</string>
+    <string name="copy_title">Copy Proxies</string>
+    <string name="copy_message">How many proxies do you want to copy?</string>
+    <string name="copy_option_selected">Selected (%d)</string>
+    <string name="copy_option_custom">Custom amount</string>
+    <string name="copy_option_10">10 proxies</string>
+    <string name="copy_option_50">50 proxies</string>
+    <string name="copy_option_100">100 proxies</string>
+    <string name="copy_option_all">All (%d)</string>
+    
+    <!-- Validation -->
+    <string name="validation_complete">Validation complete: %d working, %d failed</string>
+    
+    <!-- Error messages -->
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="error_permission">Storage permission required to export files</string>
+    
+    <!-- Content descriptions -->
+    <string name="cd_proxy_status">Proxy status indicator</string>
+    <string name="cd_copy_proxy">Copy proxy to clipboard</string>
+    <string name="cd_checkbox">Selection checkbox</string>
+    <string name="cd_filter_icon">Filter icon</string>
+</resources>
